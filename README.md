@@ -51,4 +51,4 @@ Du kannst mich über die Mail ben1100@hotmail.de erreichen, wenn du Fragen hast 
 
 ---
 
-**Hinweis:** Dieses Repository befindet sich derzeit in aktiver Entwicklung und wird noch Aktuallisiert.
+**Hinweis:** Dieses Repository befindet sich derzeit in aktiver Entwicklung und wird noch Aktualisiert.
