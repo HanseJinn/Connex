@@ -1,0 +1,44 @@
+.sbTrigger {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.sbTrigger:hover {
+  background: linear-gradient(
+    -45deg,
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    #726464,
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1)
+  );
+  background-size: 200%;
+  animation-name: gradient-animation;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 200% 100%;
+  }
+}

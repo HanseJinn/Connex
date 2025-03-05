@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "bonso";
+  src: url(../assets/fonts/bonso.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "label";
+  src: url(../assets/fonts/label.ttf) format(truetype);
+}
+
+.menuItem {
+  color: whitesmoke;
+  font-family: "bonso";
+}
+
+.menuItem:hover {
+  background-color: rgba(26, 32, 44, 0.6);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.sbButton:hover {
+  background: linear-gradient(
+    -45deg,
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    #a09595,
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1),
+    rgb(74 85 104 / 0.1)
+  );
+  background-size: 200%;
+  animation-name: gradient-animation;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 200% 100%;
+  }
+}
+
+.label {
+  font-family: "label";
+  letter-spacing: 0.05rem;
+  color: #d4af37;
+  text-shadow: #1a202c 0px 0px 5px, #1a202c 0px 0px 10px, #1a202c 0px 0px 15px,
+    #d4af37 2px 2px 10px, #d4af37 2px 2px 20px, #d4af37 0px 0px 30px,
+    #ff0202 0px 0px 60px;
+}
