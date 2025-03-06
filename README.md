@@ -51,7 +51,7 @@ Du kannst mich erreichen über [LinkedIn](#) oder [Twitter](#), wenn du Fragen h
 
 ---
 
-**Hinweis:** Dieses Repository befindet sich derzeit in aktiver Entwicklung und wird regelmäßig aktualisiert. Alle Pull Requests und Issues sind willkommen! ✨
+**Hinweis:** Dieses Repository befindet sich derzeit in aktiver Entwicklung und wird noch aktualisiert. Alle Pull Requests und Issues sind willkommen! ✨
 
 
 **Das Backend wird privat bearbeitet**
