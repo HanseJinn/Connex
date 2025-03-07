@@ -50,6 +50,4 @@ Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoüb
 
 **Hinweis:** Dieses Repository befindet sich derzeit in aktiver Entwicklung und wird noch aktualisiert. Alle Pull Requests und Issues sind willkommen! ✨  
 
-**Das Backend wird privat bearbeitet**  
-
 
