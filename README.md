@@ -5,7 +5,7 @@ Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoüb
 ## 🔧 **Technologien:**  
 - **Backend:** C# | ASP.NET Core | SignalR (Echtzeit-Kommunikation)  
 - **Frontend:** React | TypeScript | TailwindCSS  
-- **Datenbanken:** Microsoft SQL Server | PostgreSQL | SQLite  
+- **Datenbanken:** Microsoft SQL Server | SQLite  
 - **Cloud:** AWS (S3 für Dateispeicherung, EC2, Lambda)  
 - **Weitere:** Docker, JWT, bcrypt, WebSocket, Azure (optional für Cloud-Services)  
 
