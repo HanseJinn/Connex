@@ -4,7 +4,7 @@ Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoüb
 
 ## 🔧 **Technologien:**  
 - **Backend:**
-- **Frontend:** React | TypeScript | TailwindCSS  
+- **Frontend:** React | TypeScript | TailwindCSS | ShadCN
 - **Datenbanken:**
 - **Cloud:** 
 - **Weitere:**
