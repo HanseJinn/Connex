@@ -1,3 +1,6 @@
+![Preview](src/assets/img/Preview.png)
+
+
 # 🚀 Connex - Kommunikationsplattform  
 
 Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoübertragungen sowie viele weitere Funktionen bietet. Die Anwendung wird kontinuierlich weiterentwickelt und hat das Ziel, eine skalierbare und benutzerfreundliche Lösung für Online-Kommunikation zu schaffen.  
