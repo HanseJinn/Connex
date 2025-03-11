@@ -23,7 +23,8 @@ Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoüb
 ## 🛠 **Verwendete Tools & Frameworks:**  
 
 - **ShadCN:** Für die Sidebar Buttons und andere Assets
-- **Docker:** Containerisierung der Anwendung für eine flexible Bereitstellung  
+- **Docker:** Containerisierung der Anwendung für eine flexible Bereitstellung
+- **VS-CODE:** Code Editor für die Projekt Verabeitung
 
 ## 📝 **Datenbanken:**  
 - **MySQL:** 
