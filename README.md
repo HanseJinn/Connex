@@ -1,4 +1,4 @@
-![Preview](src/assets/img/Preview.png)
+![Preview](./frontend/src/assets/img/Preview.png)
 
 
 # 🚀 Connex - Kommunikationsplattform  
