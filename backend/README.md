@@ -4,7 +4,7 @@
 
 ```sh
 # Create your project directory
-mkdir connex-backend && cd connex-backend
+mkdir backend && cd backend
 
 # Initialize a Node project
 npm init -y

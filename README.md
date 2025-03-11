@@ -1,14 +1,13 @@
 ![Preview](./frontend/src/assets/img/Preview.png)
 
-
 # 🚀 Connex - Kommunikationsplattform  
 
 Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoübertragungen sowie viele weitere Funktionen bietet. Die Anwendung wird kontinuierlich weiterentwickelt und hat das Ziel, eine skalierbare und benutzerfreundliche Lösung für Online-Kommunikation zu schaffen.  
 
 ## 🔧 **Technologien:**  
-- **Backend:** 
+- **Backend:** Express.js
 - **Frontend:** React | TypeScript | TailwindCSS | ShadCN
-- **Datenbanken:** 
+- **Datenbanken:** MySQL
 - **Cloud:** 
 - **Weitere:** Docker, JWT, bcrypt, WebSocket
 
@@ -27,7 +26,7 @@ Connex ist eine Kommunikationsplattform, die Echtzeit-Chat, Sprach- und Videoüb
 - **Docker:** Containerisierung der Anwendung für eine flexible Bereitstellung  
 
 ## 📝 **Datenbanken:**  
-- **:** 
+- **MySQL:** 
 
 ## 🧪 **Testing:**  
 - **:** 
