@@ -3,12 +3,6 @@
 ## Setup & Installation
 
 ```sh
-# Create your project directory
-mkdir backend && cd backend
-
-# Initialize a Node project
-npm init -y
-
 # Install required packages
 npm install express mysql2 dotenv bcryptjs jsonwebtoken cors helmet morgan
 
