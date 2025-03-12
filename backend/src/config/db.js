@@ -3,11 +3,11 @@ require("dotenv").config();
 
 // Create a connection pool
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || "127.0.0.1",  // Default to 127.0.0.1
-  user: process.env.DB_USER || "root",       // Default to root
-  password: process.env.DB_PASS || "",       // Default to empty password
-  database: process.env.DB_NAME || "connex-db", // Default to connex-db
-  port: process.env.DB_PORT || 3306,         // Default MySQL port
+  host: process.env.DB_HOST || "127.0.0.1",  
+  user: process.env.DB_USER || "root",       
+  password: process.env.DB_PASS || "",      
+  database: process.env.DB_NAME || "connex-db",
+  port: process.env.DB_PORT || 3306,        
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
@@ -19,7 +19,7 @@ pool.getConnection((err, connection) => {
     console.error("❌ Database connection failed:", err.message);
   } else {
     console.log("✅ Connected to MySQL database:", process.env.DB_NAME);
-    connection.release(); // Release connection after checking
+    connection.release();
   }
 });
 
