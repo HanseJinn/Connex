@@ -5,8 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000, // Setze den Port auf 3000
-    open: true, // Optional: Browser automatisch öffnen
+    port: 3000, 
+    open: true, 
   },
   resolve: {
     alias: {

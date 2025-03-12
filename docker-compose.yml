@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend-builder
+    ports:
+      - "3000:3000"
+    command: npm run dev --prefix frontend
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend-builder
+    ports:
+      - "5000:5000"
+    command: npm run dev --prefix backend
